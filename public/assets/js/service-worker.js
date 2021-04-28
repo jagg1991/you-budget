@@ -1,3 +1,5 @@
+console.log("Hello world!")
+
 const CACHE_NAME = "static-cache-v2";
 const DATA_CACHE_NAME = "data-cache-v1";
 const FILES_TO_CACHE = [
@@ -6,7 +8,7 @@ const FILES_TO_CACHE = [
     "/manifest.webmanifest",
     "/assets/css/style.css",
     "/assets/js/index.js",
-    "/assets/js/service-worker.js",
+    "assets/js/indexedDb.js",
     "/assets/icons/icon-192x192.png",
     "/assets/icons/icon-512x512.png",
 ];
@@ -45,7 +47,7 @@ self.addEventListener("activate", function (evt) {
 });
 
 self.addEventListener("fetch", function (evt) {
-    if (evt.request.url.includes("/api/")) {
+    if (evt.request.url.includes("/api")) {
         evt.respondWith(
             caches.open(DATA_CACHE_NAME).then(cache => {
                 return fetch(evt.request)
