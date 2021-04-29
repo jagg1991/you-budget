@@ -19,7 +19,7 @@ Follow the link below to try out the application for yourself! Let the gains beg
 ## Do you need to keep track of your budget?
 
 
-Want to keep up with your workouts each day? With this app, the user can track what exercises they have completed. Keep up with how many reps, the weight of the exercise, duration, how many sets were done, or the distance achieved. Working out has never been so easy! 
+Do you have issues keeping up with you budget? With You-budget, you can keep track of you finances even if your offline! With this simple app, you can 
 
 ## Installation instructions
 
