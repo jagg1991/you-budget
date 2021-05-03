@@ -23,7 +23,7 @@ Do you have issues keeping up with you budget? With You-budget, you can keep tra
 
 ## Installation instructions
 
-For this application, you will need to first run npm i to install the dependencies which include express, mongoose for the server and morgan. Once the dependencies have been installed, run the seed package by typing in npm run seed in the terminal. Then the user will run npm run start to run the local server. 
+For this application, you will first need to install the dependencies. First run npm i, then npm i compression, express, lite-server, mongoose, and morgan. Once all the dependencies have been installed, you will start the local server to check out the application by running run start in the terminal. Enjoy keeping up with you budget! This application can be run with out an internet connection. To test this, go to your dev tools in you browser. From there you will go to application, service worker, and check the offline box. When the application is back online, you saved data will be sent to the server!
 
 
 
